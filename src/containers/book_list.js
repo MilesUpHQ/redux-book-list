@@ -27,7 +27,7 @@ function mapStateToProps(state){
   // Takes the state of the application as argument
   // whatever is returned will show up as props inside of BookList
   return {
-    books: state.books;
+    books: state.books
   };
 }
 
