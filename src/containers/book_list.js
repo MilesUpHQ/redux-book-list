@@ -1,5 +1,7 @@
-// dumb component because it doesn't have any direct connection to redux
-// smart component has a connection to redux
+// Dumb component because it doesn't have any direct connection to redux
+// Smart component has a connection to redux
+
+//Container is just a component that has direct access to the state that's produced by redux
 
 import React, { Component } from 'react';
 
