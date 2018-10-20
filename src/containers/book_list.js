@@ -15,7 +15,6 @@ class BookList extends Component{
     });
   }
   render(){
-    console.log(this.props.asdf); // -> '123'
     return(
       <ul className="list-group col-sm-4">
         {this.renderList()}
@@ -28,6 +27,8 @@ function mapStateToProps(state){
   // Takes the state of the application as argument
   // whatever is returned will show up as props inside of BookList
   return {
-    asdf: '123'
+    books: state.books;
   };
 }
+
+export default connect(mapStateToProps)(BookList)
