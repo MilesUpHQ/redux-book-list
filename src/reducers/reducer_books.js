@@ -1,4 +1,5 @@
 export default function(){
+  // static state
   return [
     { title: 'Javascript: The Good Parts' },
     { title: 'Harry Potter' },
