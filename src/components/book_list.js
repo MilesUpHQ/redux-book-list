@@ -1,3 +1,6 @@
+// dumb component because it doesn't have any direct connection to redux
+// smart component has a connection to redux
+
 import React, { Component } from 'react';
 
 export default class BookList extends Component{
